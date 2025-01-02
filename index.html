@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jing Yu's Lovely Portfolio ✨</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=ZCOOL+XiaoWei&display=swap" rel="stylesheet">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Sacramento&family=Poppins:wght@300&family=Quicksand:wght@300;500&display=swap');
+    
+    body {
+      font-family: 'Quicksand', sans-serif;
+      background: linear-gradient(to bottom, #ffffff, #ffedf5, #e3f2fd);
+      color: #333;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #bbdefb;
+      color: #ff4081;
+      padding: 30px;
+      text-align: center;
+      font-size: 3rem;
+      font-weight: bold;
+      border-bottom: 4px solid #f8bbd0;
+      font-family: 'Sacramento', cursive;
+    }
+
+    header span {
+      display: inline-block;
+      animation: bounce 2s infinite;
+    }
+
+    @keyframes bounce {
+      0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+      }
+      40% {
+        transform: translateY(-10px);
+      }
+      60% {
+        transform: translateY(-5px);
+      }
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    .section {
+      margin-bottom: 40px;
+    }
+
+    .section h2 {
+      color: #1976d2;
+      font-size: 2rem;
+      border-bottom: 2px solid #ffc1e3;
+      display: inline-block;
+      margin-bottom: 10px;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .section h3 {
+      color: #1976d2;
+      font-size: 1.5rem;
+      font-weight: 500;
+      margin-bottom: 8px;
+      font-family: 'Quicksand', sans-serif;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    ul li {
+      margin-bottom: 8px;
+      position: relative;
+    }
+
+    ul li::before {
+      content: "🤍";
+      position: absolute;
+      left: -20px;
+    }
+
+    .image-section {
+      text-align: center;
+      margin: 20px 0;
+    }
+
+    .image-section img {
+      max-width: 150px;
+      border-radius: 50%;
+      border: 5px solid #ffc1e3;
+    }
+
+    .skills ul li::before {
+      content: "✨";
+    }
+
+    .skills ul li:nth-child(1)::before {
+      content: "🌍";
+    }
+
+    .skills ul li:nth-child(2)::before {
+      content: "💻";
+    }
+
+    .skills ul li:nth-child(3)::before {
+      content: "🎵";
+    }
+
+    .skills ul li:nth-child(4)::before {
+      content: "✨";
+    }
+
+    .contact a {
+      color: #1976d2;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    footer {
+      background-color: #bbdefb;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      margin-top: 40px;
+      font-size: 0.9rem;
+    }
+
+/* Chinese text font styling */
+.chinese-text {
+  font-family: 'ZCOOL XiaoWei', serif;
+  font-size: 1.1rem;
+  color: #f06292;
+  font-weight: bold;
+}
+
+  </style>
+</head>
+<body>
+  <header>
+    ✨ Welcome to Jing Yu's Lovely Portfolio ✨ <span>(♡˙︶˙♡)</span>
+  </header>
+
+  <div class="container">
+    <section class="section">
+      <h2>About Me 💖</h2>
+      <p>Hi there! I'm Heng Jing Yu. I love playing the piano, meditating, and enjoying Pokémon games. My favorite Pokémon are Eevee (伊布) and Lucario (路卡利欧). ✧੯•́໒꒱</p>
+    </section>
+
+    <div class="image-section">
+      <img src="beepo.jpg" alt="Beepo - Digital Bird Pet">
+      <p>Meet Beepo, my digital bird pet who loves to explore the world! 🐦✨</p>
+    </div>
+
+    <section class="section skills">
+      <h2>Skills 🌟</h2>
+      <ul>
+        <li>Languages: Basic French and Spanish 🌍</li>
+        <li>Technical: HTML, Python, Analysis 💻</li>
+        <li>Music: Piano and Beginner Violin 🎵</li>
+        <li>Creativity and Problem-Solving ✨</li>
+      </ul>
+    </section>
+    
+    <div class="container">
+  <!-- Existing sections -->
+  
+<div class="container">
+  <!-- Existing sections -->
+
+  <!-- Music Section -->
+  <section class="music">
+    <h3>My Favorite Music 🎧</h3>
+    <div class="music-item">
+      <p>Icaro of The River Dolphin 🐬:</p>
+      <audio controls>
+        <source src="Icaro of the river dolphin.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+
+    <div class="music-item">
+      <p>Winter Largo from The Four Seasons ☃️:</p>
+      <audio controls>
+        <source src="Winter Largo from the Four Seasons.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+  </section>
+  <!-- Piano Practice Section -->
+  <section class="music">
+    <h3>My Piano Practice 🎹</h3>
+    <div class="music-item">
+      <p>Canon (卡农):</p>
+      <audio controls>
+        <source src="Canon卡农-20220423.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+  </section>
+  </section>
+
+  <!-- Violin Practice Section -->
+  <section class="music">
+    <h3>My Violin Practice 🎻</h3>
+    <div class="music-item">
+      <p>Ode to Joy (欢乐颂):</p>
+      <audio controls>
+        <source src="Ode to Joy 欢乐颂-20230419.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+</div>
+
+<section class="section bookshelf">
+  <h2>My Bookshelf 📚</h2>
+  <h3>💓 Favorite Books:</h3>
+  <div class="chinese-text">
+    <ul>
+      <li>《史记的读法》</li>
+      <li>《万历十五年》</li>
+      <li>《庄子说什么》</li>
+    </ul>
+    <h3>🧸 Other Reads:</h3>
+    <ul>
+      <li>《生命的重建》</li>
+      <li>《人生的智慧》</li>
+      <li>《生命是什么》</li>
+      <li>《时间的秩序》</li>
+      <li>《洞见》</li>
+      <li>《合作的进化》</li>
+      <li>《金字塔原理》</li>
+      <li>《自控力》</li>
+      <li>《百年孤独》</li>
+      <li>《白鹿原》</li>
+      <li>《围城》</li>
+    </ul>
+  </div>
+</section>
+
+    <section class="section contact">
+      <h2>Contact Me 💌</h2>
+      <p>Email: <a href="mailto:jingyu091106@gmail.com">jingyu091106@gmail.com</a></p>
+      <p>LinkedIn: <a href="https://my.linkedin.com/in/jing-yu-515996245" target="_blank">View Jing Yu’s LinkedIn</a></p>
+    </section>
+  </div>
+
+  <footer>
+    &copy; 2025 Heng Jing Yu | Made with love ✿ (｡♥‿♥｡)
+  </footer>
+</body>
+</html>

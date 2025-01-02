@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&family=Poppins:wght@300&family=Quicksand:wght@300;500&display=swap');
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  background: linear-gradient(to bottom, #ffffff, #ffedf5, #e3f2fd);
+  color: #333;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #bbdefb;
+  color: #ff4081;
+  padding: 30px;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  border-bottom: 4px solid #f8bbd0;
+  font-family: 'Sacramento', cursive;
+}
+
+header span {
+  display: inline-block;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
+}
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+
+.section {
+  margin-bottom: 40px;
+}
+
+.section h2 {
+  color: #1976d2;
+  font-size: 2rem;
+  border-bottom: 2px solid #ffc1e3;
+  display: inline-block;
+  margin-bottom: 10px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.section h3 {
+  color: #1976d2;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 8px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul li {
+  margin-bottom: 8px;
+  position: relative;
+}
+
+ul li::before {
+  content: "🤍";
+  position: absolute;
+  left: -20px;
+}
+
+/* Image Section */
+.image-section img {
+  max-width: 300px; /* Increase the maximum width */
+  width: 100%; /* Ensure responsiveness */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 20px;
+  border: 5px solid #f8bbd0;
+  margin-top: 20px;
+}
+
+/* Common styles for music and violin practice sections */
+.music {
+  margin-top: 30px;
+}
+
+.music h3 {
+  color: #ff4081;
+  font-family: 'Comic Sans MS', cursive;
+  border-bottom: 2px solid #bbdefb;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+.music-item {
+  margin-bottom: 20px;
+}
+
+.music-item p {
+  font-size: 1rem;
+  color: #333;
+  font-family: 'Quicksand', sans-serif;
+}
+
+audio {
+  width: 100%; /* Ensure the audio player spans full width */
+  max-width: 500px; /* Optional: Limit the max width */
+  margin-top: 5px;
+  background-color: #ffe0f0; /* Light pink background */
+  border-radius: 5px;
+}
+
+/* General Section Styling */
+.section {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/* My Bookshelf Section */
+.bookshelf h2 {
+  font-family: 'Comic Sans MS', cursive;
+  font-size: 2rem;
+  color: #4fc3f7; /* Baby blue */
+  text-align: center;
+}
+
+.bookshelf h3 {
+  color: #ff4081; /* Pink */
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.bookshelf ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.bookshelf ul li {
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+  font-family: 'ZCOOL XiaoWei', serif;
+  color: #333;
+}
+
+/* Space consistency */
+.bookshelf {
+  margin-top: 30px;
+  padding: 10px 15px;
+  background: #E6E6FA; /* Lavender background */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.skills ul li::before {
+  content: "✨";
+}
+
+.skills ul li:nth-child(1)::before {
+  content: "🌍";
+}
+
+.skills ul li:nth-child(2)::before {
+  content: "💻";
+}
+
+.skills ul li:nth-child(3)::before {
+  content: "🎵";
+}
+
+.skills ul li:nth-child(4)::before {
+  content: "✨";
+}
+
+.contact a {
+  color: #1976d2;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #bbdefb;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 40px;
+  font-size: 0.9rem;
+}
+
+/* Chinese text font styling */
+.chinese-text {
+  font-family: 'ZCOOL XiaoWei', serif;
+  font-size: 1.1rem;
+  color: #f06292;
+  font-weight: bold;
+}
