@@ -97,6 +97,7 @@ ul li::before {
 }
 
 .music h3 {
+  font-size: 1.8rem;
   color: #ff4081;
   font-family: 'Comic Sans MS', cursive;
   border-bottom: 2px solid #bbdefb;
